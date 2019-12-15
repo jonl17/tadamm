@@ -14,4 +14,4 @@ collections:
     fields:
       - { label: "Titill", name: "title", widget: "string" }
       - { label: "Lýsing", name: "lysing", widget: "text" }
-      - { label: "Mynd", name: "featured-img", widget: "image" }
+      - { label: "Mynd", name: "mynd", widget: "image" }
