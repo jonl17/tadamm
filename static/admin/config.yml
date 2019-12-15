@@ -1,0 +1,17 @@
+backend:
+  name: git-gateway
+
+media_folder: "static/assets"
+public_folder: "assets"
+
+collection:
+  - name: "verkefni"
+    label: "Verkefni"
+    folder: "static/verkefni"
+    editor:
+      preview: false
+    create: true
+    fields:
+      - { label: "Titill", name: "title", widget: "string" }
+      - { label: "Lýsing", name: "lysing", widget: "text" }
+      - { label: "Forsíðu mynd", name: "featured-img", widget: "image" }

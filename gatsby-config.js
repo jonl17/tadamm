@@ -5,5 +5,35 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/static/assets`,
+        name: "assets",
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/static/verkefni`,
+        name: "verkefni",
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          "gatsby-remark-relative-images",
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 590,
+            },
+          },
+        ],
+      },
+    },
+    `gatsby-plugin-netlify-cms`,
+  ],
 }
