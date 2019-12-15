@@ -1,6 +1,6 @@
 ---
 title: Test
 lysing: Testing
-featured-img: /assets/fifth.jpg
+mynd: /assets/fifth.jpg
 ---
 
