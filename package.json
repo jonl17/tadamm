@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "lorange-web-site",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Rock on!",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -10,31 +10,39 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \""
   },
   "dependencies": {
-    "gatsby": "^2.18.8",
-    "gatsby-image": "^2.2.36",
-    "gatsby-plugin-netlify-cms": "^4.1.33",
-    "gatsby-plugin-sharp": "^2.3.7",
-    "gatsby-remark-images": "^3.1.38",
+    "@vimeo/player": "^2.10.0",
+    "babel-plugin-styled-components": "^1.10.6",
+    "gatsby": "^2.18.5",
+    "gatsby-cli": "^2.8.13",
+    "gatsby-image": "^2.2.34",
+    "gatsby-plugin-catch-links": "^2.1.19",
+    "gatsby-plugin-google-analytics": "^2.1.29",
+    "gatsby-plugin-layout": "^1.1.18",
+    "gatsby-plugin-netlify-cms": "^4.1.30",
+    "gatsby-plugin-react-helmet": "^3.1.13",
+    "gatsby-plugin-react-redux": "^1.0.10",
+    "gatsby-plugin-react-svg": "^2.1.2",
+    "gatsby-plugin-sharp": "^2.3.4",
+    "gatsby-plugin-styled-components": "^3.1.11",
+    "gatsby-remark-images": "^3.1.29",
     "gatsby-remark-relative-images": "^0.2.3",
-    "gatsby-source-filesystem": "^2.1.42",
-    "gatsby-transformer-remark": "^2.6.42",
-    "gatsby-transformer-sharp": "^2.3.9",
+    "gatsby-source-filesystem": "^2.1.33",
+    "gatsby-transformer-remark": "^2.6.38",
+    "gatsby-transformer-sharp": "^2.3.6",
+    "graphql": "^14.5.8",
     "netlify-cms-app": "^2.9.7",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-helmet": "^5.2.1",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4",
+    "slugify": "^1.3.5",
+    "styled-components": "^4.4.0"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "prettier": "^1.18.2"
   }
 }
